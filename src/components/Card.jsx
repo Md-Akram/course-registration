@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Card({ course }) {
+export default function Card({ course, handleClick }) {
     const { img, course_name, details, price, credit_hour } = course
     return (
 
@@ -13,10 +13,10 @@ export default function Card({ course }) {
                 <p className=''>{details}</p>
                 <div className='flex flex-row justify-between'>
                     <span>Credit Hours: {credit_hour}</span>
-                    <span>Price: {price}</span>
+                    <span>Price: {price.toFixed(2)}</span>
                 </div>
                 <div className="card-actions">
-                    <button className="btn w-full text-white bg-sky-600">Select</button>
+                    <button onClick={() => { handleClick(course) }} className="btn w-full text-white bg-sky-600">Select</button>
                 </div>
             </div>
         </div>

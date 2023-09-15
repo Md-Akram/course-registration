@@ -4,7 +4,7 @@
         "course_name": "Web Development Fundamentals",
         "img": "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
         "credit_hour": 4,
-        "price": "$49.99",
+        "price": 49.99,
         "details": "Learn the basics of web development, including HTML, CSS, and JavaScript."
     },
     {
@@ -12,7 +12,7 @@
         "course_name": "JavaScript Mastery",
         "img": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
         "credit_hour": 6,
-        "price": "$79.99",
+        "price": 79.99,
         "details": "Dive deep into JavaScript, from fundamentals to advanced topics."
     },
     {
@@ -20,7 +20,7 @@
         "course_name": "Python for Beginners",
         "img": "https://images.unsplash.com/photo-1649180556628-9ba704115795?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHl0aG9uJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
         "credit_hour": 5,
-        "price": "$59.99",
+        "price": 59.99,
         "details": "Start your journey into programming with Python, the beginner-friendly language."
     },
     {
@@ -28,7 +28,7 @@
         "course_name": "Data Science with Python",
         "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80",
         "credit_hour": 8,
-        "price": "$99.99",
+        "price": 99.99,
         "details": "Explore data analysis and machine learning using Python."
     },
     {
@@ -36,7 +36,7 @@
         "course_name": "React.js Essentials",
         "img": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
         "credit_hour": 7,
-        "price": "$89.99",
+        "price": 89.99,
         "details": "Build interactive web applications with the React.js library."
     },
     {
@@ -44,7 +44,7 @@
         "course_name": "Full Stack Web Development",
         "img": "https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
         "credit_hour": 10,
-        "price": "$129.99",
+        "price": 129.99,
         "details": "Master both front-end and back-end development to create complete web applications."
     },
     {
@@ -52,7 +52,7 @@
         "course_name": "Mobile App Development with Flutter",
         "img": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
         "credit_hour": 6,
-        "price": "$79.99",
+        "price": 79.99,
         "details": "Learn to build cross-platform mobile apps using Flutter and Dart."
     },
     {
@@ -60,7 +60,7 @@
         "course_name": "Java Programming Fundamentals",
         "img": "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amF2YSUyMHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
         "credit_hour": 5,
-        "price": "$59.99",
+        "price": 59.99,
         "details": "Get started with Java programming and object-oriented concepts."
     },
     {
@@ -68,7 +68,7 @@
         "course_name": "DevOps for Beginners",
         "img": "https://images.unsplash.com/photo-1667372335962-5fd503a8ae5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
         "credit_hour": 4,
-        "price": "$49.99",
+        "price": 49.99,
         "details": "Understand DevOps practices for efficient software development and deployment."
     }
 ]
