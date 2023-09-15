@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from 'react'
-
 export default function Cart({ selectedCourse, totalCreditHour, totalPrice }) {
 
     return (
@@ -14,7 +12,7 @@ export default function Cart({ selectedCourse, totalCreditHour, totalPrice }) {
                 <hr />
                 <h2 className="text-base font-semibold text-gray-600">Total Credit Hour: {totalCreditHour} hrs</h2>
                 <hr />
-                <h2 className="text-base font-semibold text-gray-600">Total Price: {totalPrice} USD</h2>
+                <h2 className="text-base font-semibold text-gray-600">Total Price: {totalPrice.toFixed(2)} USD</h2>
 
             </div>
         </div>

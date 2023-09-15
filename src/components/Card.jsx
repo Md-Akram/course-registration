@@ -4,6 +4,7 @@ import { BsBook } from 'react-icons/bs'
 
 export default function Card({ course, handleClick }) {
     const { img, course_name, details, price, credit_hour } = course
+
     return (
 
         <div className="card bg-base-100 shadow-xl max-w-sm md:max-w-lg">
@@ -18,7 +19,7 @@ export default function Card({ course, handleClick }) {
                         <BiDollar /> Price: {price.toFixed(2)}
                     </span>
                     <span className='flex fle-row items-center justify-center gap-1'>
-                        <BsBook /> Credit Hours: {credit_hour}
+                        <BsBook /> Credit: {credit_hour}hr
                     </span>
 
                 </div>

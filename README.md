@@ -1,8 +1,10 @@
-# React + Vite
+# Project features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Students can select their desired course from this web app. They can see course details in the individual cards.
+- They will be able to see their selected courses in the cart section. They can see total credit hours, total price and remaining credit hours.
+- The application is developed in such a way that a student cannot select a course twice.
+He can take courses upto 20 credit hours.
 
-Currently, two official plugins are available:
+# How I managed state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- In this project all state were declared in the parent and passed through props to the child. The reason for declaring them in the App.jsx is state cannot be passed from child to parent. 
