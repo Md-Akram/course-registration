@@ -9,7 +9,7 @@ export default function Cart({ selectedCourse, totalCreditHour, totalPrice }) {
                 <hr />
                 <h2 className="card-title">Course name</h2>
                 <div>{
-                    selectedCourse.map((course, idx) => <h1 key={course.id}>{idx + 1}.{course.course_name}</h1>)
+                    selectedCourse.map((course, idx) => <h1 key={course.id}>{idx + 1}. {course.course_name}</h1>)
                 }</div>
                 <hr />
                 <h2 className="text-base font-semibold text-gray-600">Total Credit Hour: {totalCreditHour} hrs</h2>

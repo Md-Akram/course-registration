@@ -33,6 +33,7 @@ function App() {
       toast.error('Total credit hour cannot be more than 20hrs')
     } else {
       setSelectedCourse([...selectedCourse, course])
+      toast.success('Course added')
     }
   }
   return (
